@@ -8,6 +8,6 @@ import { button, chark } from "./src";
     console.log("the button is " + button);
     console.log("the chark is " + chark);
   } catch (error) {
-    console.log(error.message);
+    console.log(error);
   }
 })();

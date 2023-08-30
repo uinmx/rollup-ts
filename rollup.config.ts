@@ -6,7 +6,8 @@ import terser from "@rollup/plugin-terser";
 import alias from "@rollup/plugin-alias";
 import filesize from "rollup-plugin-filesize";
 import commonjs from "@rollup/plugin-commonjs";
-import typescript from "@rollup/plugin-typescript";
+// import typescript from "@rollup/plugin-typescript";
+import typescript from 'rollup-plugin-typescript2';
 import nodeResolve from "@rollup/plugin-node-resolve";
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 

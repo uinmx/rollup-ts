@@ -3,7 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "outDir": "dist",
+    "outDir": "src",
     "strict": true,
     "skipLibCheck": true, //为 true时跳过对声明文件（.d.ts）的检查。声明文件通常是用来描述第三方库或模块的类型信息
     "noImplicitAny": false, //将其设置为 false 表示允许存在隐含的 any 类型而不报错
